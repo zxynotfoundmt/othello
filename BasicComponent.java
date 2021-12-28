@@ -11,7 +11,8 @@ public abstract class BasicComponent extends JComponent {
             @Override
             public void mousePressed(MouseEvent e) {
                 super.mousePressed(e);
-                onMouseClicked();//点击之后发生的事情
+                onMouseClicked();
+             
             }
         });
     }
